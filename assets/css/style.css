@@ -215,6 +215,20 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-
+  @media only screen and (max-width: 980px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .auth-image {
+      width: 100%;
+    }
+  }
 
   
