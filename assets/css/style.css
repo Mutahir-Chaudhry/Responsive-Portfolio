@@ -216,18 +216,29 @@ body {
     border: 0 none;
   }
   @media only screen and (max-width: 980px) {
-    body {
-      background-color: lightblue;
+    .auth-image{
+      width:25%;
+      text-align: left;
     }
   }
   @media only screen and (max-width: 768px) {
-    body {
-      background-color: lightblue;
+    .auth-image {
+      width:50%;
+    }
+    .work {
+      width:50%;
     }
   }
   @media only screen and (max-width: 640px) {
     .auth-image {
       width: 100%;
+    }
+    .work {
+      width:100%;
+    }
+    #logo {
+      width:100%;
+
     }
   }
 
